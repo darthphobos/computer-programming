@@ -39,6 +39,40 @@ print(statement)
 
 message = 4 > 2 and 33 < 43
 message2 = 4 < 2 or 33 < 43
-x = False
+xmen = False
 
-print(not x)
+print(not xmen)
+
+#PEMMDAS
+
+y = 10
+x = y >= 10
+
+z = 7 // 2
+t = 7 / 2
+print(t)
+
+def my_function():
+    print('I am so great!')
+
+my_function()
+
+def add(num1, num2):
+    print(num1 + num2)
+
+my_name = "tacocat"
+words = my_name.split('o')
+print(words)
+
+def subtract(num1, num2):
+    return num1 - num2 
+
+print(subtract(4,2))
+
+difference = subtract(4,2)
+
+print(difference)
+
+# simple data types: char, string, float, double, boolean
+
+# complex data types: list, object, emnumeration, array 
