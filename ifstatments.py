@@ -45,8 +45,8 @@ classes_missed = int(input("How many classes have you missed? "))
 classes_attended = int(input("How many classes have you attended? "))
 
 if (classes_missed / classes_attended) >= 0.75:
-    print("Your attendance is {(classes_missed / classes_attended) * 100}%")
+    print(f"Your attendance is {(classes_missed / classes_attended) * 100}%")
     print("You may take the exam")
 else:
-    print("Your attendance is {(classes_missed / classes_attended) * 100}%")
+    print(f"Your attendance is {(classes_missed / classes_attended) * 100}%")
     print("You cannot attend the exam loser")
