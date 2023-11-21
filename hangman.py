@@ -1,3 +1,14 @@
+
+import random 
+  
+# Open the file in read mode 
+with open("sowpods.txt", "r") as file: 
+    allText = file.read() 
+    words = list(map(str, allText.split())) 
+  
+    # print random string 
+    print(random.choice(words)) 
+    
 word = "MARKARAGNOS"
 guesses = "_ _ _ _ _ _ _ _ _ _ _"
 win = False 
@@ -18,13 +29,3 @@ while win == False:
     print(guesses)
 
 print("Go touch grass for wasting your time on this computer")
-
-import random 
-  
-# Open the file in read mode 
-with open("sowpods.txt", "r") as file: 
-    allText = file.read() 
-    words = list(map(str, allText.split())) 
-  
-    # print random string 
-    print(random.choice(words)) 
